@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: obligation
+  datasource:
+    username: root
+    password:   
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 15672
+    username: guest
+    generation-exchange: generation.exchange
+    generation-queue: generation.queue
+    generation-routing-key: generation.routingkey
+server:
+  port: 8202
+  
